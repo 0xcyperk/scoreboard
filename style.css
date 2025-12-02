@@ -1,0 +1,66 @@
+@font-face{
+    font-family: score;
+    src:url(./fonts/CursedTimerUlil-Aznm.ttf);
+}
+
+body{ 
+    margin-top: 50px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(7, 7, 67);
+    color: #fff;
+    width: 500px
+}
+
+.main p{
+    margin: 16px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.sub1{
+    padding: 20px;
+}
+
+.sub2{
+    padding: 20px;
+}
+
+.num{
+    border: 1px solid;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 20px 70px;
+    background-color: #222;
+    font-family: 'score';
+}
+
+.num p{
+    margin: 0px;
+    font-size: 60px;
+    color: red;
+}
+
+button{
+    margin: 0 4px;
+    padding: 10px 15px;
+    background-color: rgb(7, 7, 67);
+    color: #fff;
+    border: 1px solid rgb(164, 155, 155);
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color:aliceblue;
+    color: #222;
+}
+
+button:active{
+    background-color: lightgrey;
+}
